@@ -1,7 +1,6 @@
 name: GitHub Actions sample maven Build
 on:
-  push:
-    branches: [ master ]
+  workflow_dispatch:
 
 jobs:
   build:
